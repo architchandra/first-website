@@ -1,0 +1,238 @@
+html, body  {
+  overflow-x: hidden;
+}
+
+.navbar-light span.navbar-toggler-icon  {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+button.navbar-toggler.navbar-toggler-right  {
+  border-color: white;
+  outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 0.8rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover  {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar.navbar-light  {
+  padding-bottom: 42px;
+  padding-top: 20px;
+}
+
+.navbar-light .navbar-nav  {
+  padding-top: 40px;
+}
+
+#bio-box  {
+  padding-top: 2rem;
+}
+
+.jumbotron-fluid  {
+  background-image: url('../Images/bg.png');
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+
+.bio-text  {
+  color: white;
+}
+
+i.fa-2x  {
+  color: white;
+}
+
+.no-gutter .img-thumbnail  {
+  padding: 0;
+  border-radius: 0;
+  height: 100%;
+  width: auto;
+  display: none;
+}
+
+.row.no-gutter  {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row.no-gutter > [class*="col-"],
+.row.no-gutter > [class^="col-"]  {
+  padding: 0;
+  margin: 0;
+}
+
+.img-wrapper  {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border: solid 5px #000000;
+  position: relative;
+}
+
+.img-wrapper.img-1  {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("../Images/ac.png");
+}
+
+.img-wrapper.img-2  {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("../Images/mobilnxt.png");
+}
+
+.img-wrapper.img-3  {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("../Images/gia.png");
+}
+
+.img-wrapper.img-4  {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("../Images/sbp.png");
+}
+
+.img-wrapper.img-5  {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("../Images/lnj.png");
+}
+
+.img-wrapper.img-6  {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("../Images/thumbnail.jpg");
+}
+
+.img-wrapper .img-text  {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: background-color 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.img-text h2  {
+  position: relative;
+  margin: 0;
+  font-size: 1.8em;
+  padding: 5px 5px 0 5px;
+  -webkit-transition: color 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  color: rgba(0, 0, 0, 0);
+}
+
+.img-text p  {
+  font-size: 1em;
+  padding: 0 5px 5px 5px;
+  -webkit-transition: color 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  color: rgba(0, 0, 0, 0);
+}
+
+.img-wrapper:hover .img-text  {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.img-wrapper:hover .img-text h2 {
+  color: #ffffff;
+}
+
+.img-wrapper:hover .img-text p  {
+  color: #ffffff;
+}
+
+#your-project .img-wrapper .img-text  {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#your-project .img-text h2,
+#your-project .img-text p  {
+  color: #ffffff;
+}
+
+.img-wrapper a  {
+  display: block;
+}
+
+.input-group-addon  {
+  min-width: 95px;
+}
+
+.text-muted  {
+  font-size: 12px;
+}
+
+.btn-primary  {
+  background-color: #5e0000;
+  border-color: rgba(0, 0, 0, 0.15);
+  min-width: 95px;
+}
+
+.btn-primary:hover, .btn-primary:focus  {
+  background-color: #840007;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+#footer-section  {
+  background-color: #2f2f31;
+}
+
+.btn-reset  {
+  border-color: rgba(0, 0, 0, 0.15);
+  min-width: 95px;
+  background-color: #eceeef;
+}
+
+.btn-reset:hover, .btn-reset:focus  {
+  background-color: #d3d3d3;
+}
+
+#footer-section p  {
+  color: white;
+}
+
+#footer-section a  {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+}
+
+#footer-section a:hover  {
+  color: #c0c0c0;
+}
+
+.fa-heart:hover  {
+  color: #8C0007;
+}
+
+@media (max-width: 575px)  {
+
+  .text-xs-center  {
+    text-align: center !important;
+    padding-bottom: 1px;
+  }
+
+}
